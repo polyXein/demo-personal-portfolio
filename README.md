@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## About the project
+-The main reason of this project is become to my personal portfolio.
+-i will to work with react hooks, material UI, fontawesome, bootstrap, react flip move, react router. (redux)
+-This projects is focusing in to know more about me and my journey in the code.
+-One of the main goals of this project is to be translate in 7 languages.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
