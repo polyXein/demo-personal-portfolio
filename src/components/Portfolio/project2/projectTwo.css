@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    overflow: visible;
+}
+.contain_all_view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* 
+    max-width: 810px;
+     */
+}
+
+.container__projectTwo_two{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: grid;
+    place-items: center;
+    max-width: 810px;
+    overflow: visible;
+
+}
+
+.box__projectTwo{
+    width: 95%;
+    height: 95%;
+    background-color: #031215;
+
+    display: grid;
+    grid-template-columns: repeat(22,1fr);
+    grid-template-rows: repeat(22,1fr);
+    z-index: 1;
+}
+
+.column__leftt{
+    grid-row: 5/17;
+    grid-column: 1/4;
+    z-index: 2;
+}
+.column__leftt img{
+    text-align: end;
+}
+.title__down__leftt{
+    grid-column: 1/4;
+    grid-row: 18/22;
+    font-size: 11px;
+    z-index: 2;
+    padding-left: 4px;
+    color: white;
+}
+.column__middlee{
+    grid-row: 3/20;
+    grid-column: 5/19;
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: repeat(22, 1fr);
+    grid-template-rows: repeat(22, 1fr);
+    z-index: 2;
+}
+.description__centerr{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    grid-column: 2/22;
+    grid-row: 20/23;
+    border-top: 1px solid black;
+    margin-top: 24px;
+}
+
+#part1__descriptionn{
+    font-size: 12px;
+    padding: 4px;
+    padding-top: 10px;
+}
+#part2__descriptionn{
+    font-size: 8px;
+    padding: 4px;
+}
+.first__title__projectt{
+    grid-column: 1/23;
+    grid-row: 2/4;
+    z-index: 10;
+    font-size: 2.4rem;
+    text-align: center;
+    position: relative;
+    top: 6px;
+    letter-spacing: 4px;
+}
+.center__imagee{
+    grid-column: 2/22;
+    grid-row: 3/20;
+    z-index: 4;
+}
+
+.column_of_rightt{
+    grid-row: 5/17;
+    grid-column: 20/23;
+    z-index: 2;
+}
+.title__down_of__right{
+    grid-column: 20/23;
+    grid-row: 18/22;
+    font-size: 11px;
+    z-index: 2;
+    color: white;
+
+}
+.description_of_footer{
+    grid-column: 8/22;
+    grid-row: 21/23;
+    z-index: 50;
+    text-align: end;
+    font-size: 11px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+    line-height: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}

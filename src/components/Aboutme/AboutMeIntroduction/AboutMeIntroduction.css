@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.contain_all_view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* 
+    max-width: 810px;
+     */
+}
+
+
+.container__aboutMeIntroduction{
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: repeat(22, 1fr);
+    grid-template-rows: repeat(22, 1fr);
+ 
+    max-width: 810px;
+}
+
+.container__bg__aboutme{
+    grid-column: 1/23;
+    grid-row: 1/9;
+}
+.container__main__aboutme{
+    background-color: white;
+    grid-column: 3/23;
+    grid-row: 7/23;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.name__quote__about{
+    height: 30px;
+    border-left: 1px solid gold;
+    display: flex;
+    align-items: center;
+
+}
+.name__quote__about p{
+    font-size: 14px;
+    opacity: 0.7;
+    color: black;
+    padding-left: 12px;
+    }
+.title__about{
+    padding-left: 12px;
+    letter-spacing: 1.4px;
+    padding-bottom: 20px;
+}
+.paragraph__about p{
+    padding-left: 12px;
+    font-size: 0.9rem;
+    text-align: justify;
+    line-height: 20px;
+}
+.number__about{
+    padding-left: 12px;
+    font-size: 1.1rem;
+    padding-top: 20px;
+
+}

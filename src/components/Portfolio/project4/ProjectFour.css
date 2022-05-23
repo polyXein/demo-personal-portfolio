@@ -1,0 +1,75 @@
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;   
+}
+
+.contain_all_view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* 
+    max-width: 810px;
+     */
+}
+
+.box__project4_Four{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(32, 1fr);
+    grid-template-rows: repeat(32, 1fr);
+    max-width: 810px;
+
+}
+.box__title_four{
+    grid-row: 6/14;
+    grid-column: 4/18;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.box__title_four h1{
+    font-weight: 100;
+}
+
+.box__text_four{
+    grid-row: 9/17;
+    grid-column: 18/31;
+    font-size: 14px;
+    text-align: justify;
+    padding: 8px;
+}
+
+.container__image_four{
+    grid-column: 14/32;
+    grid-row: 19/32;
+    z-index: 5;
+}
+
+.circle__bg_four{
+    grid-column: 8/24;
+    grid-row: 22/29;
+    z-index: 1  ;
+    border-radius: 50%;
+    background-color: #c49979;
+}
+.box__technologies_four{
+    padding-left: 12px;
+    grid-column: 1/20;
+    grid-row: 14/18;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    text-align: start;
+}
+.box__technologies_four p{
+    font-size: 0.6rem;
+    padding-bottom: 12px;
+    opacity: 0.5;
+}
+
+

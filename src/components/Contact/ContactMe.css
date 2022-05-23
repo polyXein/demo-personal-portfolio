@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.contain_all_view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container__page_contactme{
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: repeat(22, 1fr);
+    grid-template-rows: repeat(22, 1fr); 
+    
+    max-width: 810px;
+}
+.container__title_contactme{
+    grid-column: 3  /20;
+    grid-row: 2/5;
+    display: grid;
+    place-items: center;
+    padding-bottom: 12px;
+    border-bottom: 1px solid black;
+}
+
+
+.box__rowOne__contacme{
+    grid-column: 1/25;
+    grid-row: 6/12;
+    background-color: white;
+
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.redsocial__left_contact_rowOne{
+   
+    width: 45%;
+    height: 100%;
+    margin-left: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 8px;
+}
+.box_icon_of_contactme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+
+    border: 2px solid black;
+    padding: 24px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: black;
+    opacity: 0.9;
+}
+.redsocial__right_contact_rowOne{
+    width: 45%;
+    height: 100%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 8px;
+}
+.icon_grow_contacme{
+    width: 70px !important;
+    height: 70px !important;
+}
+
+.dscript_title_redsocial{
+    margin-top: 12px;
+    font-size: 1.2rem;
+
+}
+
+.box__rowTwo__contacme{
+    grid-column: 1/25;
+    grid-row: 12/19;
+
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box__rowThree__contacme{
+    grid-column: 3/21;
+    grid-row: 19/21;
+    font-family: sans-serif;
+    display: grid;
+    place-items: center;
+    font-size: 1.2rem;
+    border-top: 1px solid black;
+}

@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contain_all_view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container__home{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f1eee9;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: repeat(40, 1fr);
+
+    max-width: 810px;
+
+}
+.box__background__page{
+    background-color: #bfc4c0;
+    z-index: 2;
+    grid-column: 3/19;
+    grid-row: 2/38;
+    
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+.box__titles{
+    color: #878987;
+    grid-row: 1/7;
+    grid-column: 1/4;
+    position: relative;
+    color: black;
+    z-index: 8;
+
+}
+.titlee{
+    position: absolute;
+    top: 30px;
+    left: 0px;
+
+    letter-spacing: 3px;
+    color: black;
+
+    font-size: 2.7rem;
+    transform: rotate(270deg);
+    width: 300px;
+    height: 300px;
+    text-align: end;
+    font-family: 'Courier New', Courier, monospace;
+    z-index: 10;
+}
+
+.descriptionn{
+    position: absolute;
+    left: 54px; 
+    top: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+
+    font-size: 0.8rem;
+    transform: rotate(270deg);
+    width: 300px;
+    height: 300px;
+    text-align: end;
+    color: black;
+
+}
+.link{
+    text-decoration: none !important;
+}
+.un{
+    grid-column: 8/21;
+    grid-row: 4/12;
+    z-index: 10;
+    margin-bottom: 4px;
+    background-color: blueviolet;
+}
+
+.deux{
+    grid-column: 8/21;
+    grid-row: 13/21;
+    z-index: 10;
+    margin-bottom: 4px;
+    background-color: black;
+}
+.trois{
+    grid-column: 8/21;
+    grid-row: 22/30;
+    z-index: 10;
+    margin-bottom: 4px;
+    background-color: blueviolet;
+
+}
+.quatre{
+    grid-column: 8/21;
+    grid-row: 31/39;
+    z-index: 10;
+    background-color: black;
+}
+
+/* .card{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ */
+.container_card_home{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: blue !important;
+}
+.imageUn,
+.imageDeux,
+.imageTrois,
+.imageQuatre{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: rgb(175, 236, 33);
+}
+/* .image {
+    width: 100%;
+    height: auto;
+} */
