@@ -4,10 +4,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ## About the project
-https://nicolasortizsuarez-demo.netlify.app/
+https://nicolasortizsuarez-demo.netlify.app/ Demo version
 
 
 ## About the project
+-The project it's mobile first, i will to do responsive soon, but for right now it's "good" in mobile and 
+it's not really good responsive.. i will work soon in that..
+
 -The main reason of this project is become to my personal portfolio.
 -i will to work with react hooks, material UI, fontawesome, bootstrap, react flip move, react router. (redux)
 -This projects is focusing in to know more about me and my journey in the code.
