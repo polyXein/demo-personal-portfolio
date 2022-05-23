@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## About the project
+https://nicolasortizsuarez-demo.netlify.app/
+
+
 ## About the project
 -The main reason of this project is become to my personal portfolio.
 -i will to work with react hooks, material UI, fontawesome, bootstrap, react flip move, react router. (redux)
